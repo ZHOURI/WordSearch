@@ -1,0 +1,84 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Pagination Links - jQuery EasyUI Demo</title>
+    <link rel="stylesheet" type="text/css" href="../../themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="../../themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="../../demo.css">
+    <script type="text/javascript" src="../../jquery.min.js"></script>
+    <script type="text/javascript" src="../../jquery.easyui.min.js"></script>
+    <script>
+        $(function () {
+            function draw(data) {
+                $.each(data.list, function (i, val) {
+                    $("#content").append(
+                        "<div title=\""+"val.word"+ "\" style=\"overflow:auto;padding:10px;\">" +
+                        "<h3 style=\"color:#0099FF;\">" + val.word + "</h3>" +
+                        "<p>" + val.pinyin + "</p>"+
+                        "<p>" + val.abbreviation + "</p>"+
+                        "<p>" + val.derivation + "</p>"+
+                        "<p>" + val.explanation + "</p>"+
+                        "<p>" + val.example + "</p>"+
+                        "</div></<hr>>");
+                });
+            }
+
+            $("#myform").submit(function (e) {
+                e.preventDefault();
+                var text = $("input:text").val();
+                $.ajax({
+                    url:"/words/queryWord",
+                    data:{word:text},
+                    type:"post",
+                    success:function (data) {
+                        console.log(data);
+                        var s = JSON.stringify(data);
+                        alert(s);
+                        $("#content").empty();
+                        draw(data);
+                        $('#pp').pagination({
+                            total:data.totalCount,
+                            pageSize:data.rows,
+                            pageList: [10,20,50,100],
+                            layout:['list','sep','first','prev','links','next','last','sep','refresh','info'],
+                            onSelectPage: function(pageNumber, pageSize){
+                                $.ajax({
+                                    data:{currentPage:pageNumber,rows:pageSize,word:text},
+                                    url:'/words/queryWord',
+                                    type:'post',
+                                    success:function(data){
+                                       console.log(data);
+                                        var s = JSON.stringify(data);
+                                        $("#content").empty();
+                                        draw(data);
+                                    }
+                                });
+                            }
+                        });
+                    }
+                })
+            })
+        })
+    </script>
+</head>
+<body>
+<div id="header" style="height: 100px;">
+    <h1 style="text-align: center">在线成语查询</h1>
+</div>
+<div id="searchBox" style="height: 100px;">
+    <div style="margin: auto 0px">
+        <form id="myform" action="" method="post">
+            <label>输入你想查询的成语</label><input type="text" name="word">
+            <input type="submit" value="提交">
+        </form>
+    </div>
+</div>
+<div id="content">
+    <div style="margin:20px 0 10px 0;"></div>
+</div>
+<div id="pp" style="background:#efefef;border:0px solid #ccc;">
+
+</div>
+<div style="margin:20px 0;"></div>
+</body>
+</html>

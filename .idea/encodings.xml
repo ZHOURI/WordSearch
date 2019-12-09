@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/changelog.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/css/style.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/css/style.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/demo" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/demo-mobile" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/demo.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/easyloader.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.eot" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.svg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.ttf" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff2" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/jquery.easyui.min.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/jquery.easyui.mobile.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/jquery.min.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/js/bootstrap.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/js/jquery-3.2.1.min.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/license_freeware.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/locale" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/locale/bootstrap-markdown.ar.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/locale/bootstrap-markdown.cs.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/locale/bootstrap-markdown.da.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/locale/bootstrap-markdown.de.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/locale/bootstrap-markdown.es.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/locale/bootstrap-markdown.fa.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/locale/bootstrap-markdown.fr.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/locale/bootstrap-markdown.hu.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/locale/bootstrap-markdown.it.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/locale/bootstrap-markdown.ja.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/locale/bootstrap-markdown.kr.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/locale/bootstrap-markdown.nb.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/locale/bootstrap-markdown.nl.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/locale/bootstrap-markdown.pl.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/locale/bootstrap-markdown.ptBR.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/locale/bootstrap-markdown.ru.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/locale/bootstrap-markdown.sl.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/locale/bootstrap-markdown.sv.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/locale/bootstrap-markdown.tr.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/locale/bootstrap-markdown.ua.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/locale/bootstrap-markdown.zh-tw.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/locale/bootstrap-markdown.zh.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/plugins" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/readme.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/src" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/themes" charset="GBK" />
+  </component>
+</project>
