@@ -1,6 +1,5 @@
 package cn.honeyjam.pojo;
 
-import com.sun.istack.internal.NotNull;
 
 import javax.persistence.Id;
 import javax.persistence.Table;
@@ -11,9 +10,7 @@ import java.util.Date;
 public class User implements Serializable {
     @Id
     private Integer id;
-    @NotNull
     private String username;
-    @NotNull
     private String password;
     private Date createtime;
 
